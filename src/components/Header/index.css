@@ -1,0 +1,43 @@
+.headerContainer {
+    border-bottom:1px solid #e0e0e0;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background: #fff;
+}
+
+.headerContainer img{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.headerContainer-item2 img.factImg {
+    margin-left: 0.625rem;
+}
+
+.headerContainer-item, 
+.headerContainer-item2, 
+.headerContainer-item3 {
+    padding:0.625rem;
+}
+
+.headerContainer-item {
+    color: red;
+    font-size:1.25rem;
+}
+
+.headerContainer-item2 {
+    text-align: end;
+}
+
+.headerContainer-item3 {
+    border-left:1px solid #e0e0e0;
+}
+
+#cartButton {
+    display: none;
+}
+
+.unitsCart:target + .headerContainer #cartButton {
+    display: inline-flex;
+  }

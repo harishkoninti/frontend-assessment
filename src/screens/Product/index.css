@@ -1,0 +1,51 @@
+.sectionContainer {
+    background:#efefef;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sectionTitle {
+    color:red;
+    padding-bottom:0.5rem;
+}
+
+.cardTitle {
+    color:red;
+}
+
+.hyperLink {
+    text-decoration: none;
+    color:#0288D1
+}
+
+.unitsCount {
+    height: 26px;
+    width:60px;
+}
+
+.productTax, .transportCost {
+    font-size:0.825rem;
+    opacity:0.8;
+}
+
+.productPrice {
+    margin-top:1rem;
+}
+
+.addCart {
+    position:sticky;
+    top:50%;
+}
+
+.addIcon {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.discountImg {
+    vertical-align: bottom;
+}
+
+.productImg {
+ cursor: pointer;
+}
